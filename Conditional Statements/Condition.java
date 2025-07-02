@@ -59,5 +59,33 @@ public class Condition{
         //     tax = (int) (income * 0.3);
         // }
         // System.out.println("your tax is "+tax);
+
+
+        //Ternary operator
+        // int num = sc.nextInt();
+        // String result = ((num % 2 == 0)?"even":"odd");
+        // System.out.println("This number is " + result);
+
+
+        // int marks = sc.nextInt();
+        // String result = ((marks >= 33)?"pass":"fail");
+        // System.out.println("Student is " + result);
+
+
+        // Switch Case
+        int code = sc.nextInt();
+        switch(code){
+            case 10:
+                System.out.println("learn Java");
+                break;  
+            case 20:
+                System.out.println("Learn Web dev");
+                break;
+            case 30:
+                System.out.println("Learn Data Science");
+                break;
+            default: 
+                System.out.println("Invalid Syntax");
+        }
     }
 }
