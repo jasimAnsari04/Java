@@ -73,19 +73,41 @@ public class Condition{
 
 
         // Switch Case
-        int code = sc.nextInt();
-        switch(code){
-            case 10:
-                System.out.println("learn Java");
-                break;  
-            case 20:
-                System.out.println("Learn Web dev");
+        // int code = sc.nextInt();
+        // switch(code){
+        //     case 10:
+        //         System.out.println("learn Java");
+        //         break;  
+        //     case 20:
+        //         System.out.println("Learn Web dev");
+        //         break;
+        //     case 30:
+        //         System.out.println("Learn Data Science");
+        //         break;
+        //     default: 
+        //         System.out.println("Invalid Syntax");
+        // }
+
+        System.out.println("Enter the first number");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the Second number");
+        int num2 = sc.nextInt();
+        char operator = sc.next().charAt(0);
+        switch(operator){
+            case '+':
+                System.out.println(num1+num2);
                 break;
-            case 30:
-                System.out.println("Learn Data Science");
+            case '-':
+                System.out.println(num1-num2);
                 break;
-            default: 
-                System.out.println("Invalid Syntax");
+            case '*':
+                System.out.println(num1*num2);
+                break;
+            case '%':
+                System.out.println(num1%num2);
+                break;
+            default :
+                System.out.println("invalid");
         }
     }
 }
