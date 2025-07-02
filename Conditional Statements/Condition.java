@@ -88,26 +88,26 @@ public class Condition{
         //         System.out.println("Invalid Syntax");
         // }
 
-        System.out.println("Enter the first number");
-        int num1 = sc.nextInt();
-        System.out.println("Enter the Second number");
-        int num2 = sc.nextInt();
-        char operator = sc.next().charAt(0);
-        switch(operator){
-            case '+':
-                System.out.println(num1+num2);
-                break;
-            case '-':
-                System.out.println(num1-num2);
-                break;
-            case '*':
-                System.out.println(num1*num2);
-                break;
-            case '%':
-                System.out.println(num1%num2);
-                break;
-            default :
-                System.out.println("invalid");
-        }
+        // System.out.println("Enter the first number");
+        // int num1 = sc.nextInt();
+        // System.out.println("Enter the Second number");
+        // int num2 = sc.nextInt();
+        // char operator = sc.next().charAt(0);
+        // switch(operator){
+        //     case '+':
+        //         System.out.println(num1+num2);
+        //         break;
+        //     case '-':
+        //         System.out.println(num1-num2);
+        //         break;
+        //     case '*':
+        //         System.out.println(num1*num2);
+        //         break;
+        //     case '%':
+        //         System.out.println(num1%num2);
+        //         break;
+        //     default :
+        //         System.out.println("invalid");
+        // }
     }
 }
