@@ -2,6 +2,9 @@ import java.util.*;
 public class Loop{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+
+
+        // while loop
         // int count = 0;
         // while(count < 10){
         //     System.out.println("Hello World");
@@ -38,5 +41,9 @@ public class Loop{
         //     i++;
         // }
         // System.out.println(sum);
+
+
+
+        // for loop
     }
 }
