@@ -45,5 +45,20 @@ public class Loop{
 
 
         // for loop
+    
+        // for(int i=1; i<=10; i++){
+        //     System.out.println("hello");
+        // }
+
+        // for(int i=1; i<=10; i++){
+        //     System.out.println("99 * " + i + " = " +i*99);
+        // }
+
+        for(int lines = 1; lines <= 4; lines++){
+            System.out.println("* * * *");
+        }
+
+
+
     }
 }
